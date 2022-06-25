@@ -1,3 +1,5 @@
+package DZ_Java;
+
 // Написать программу вычисления n-ого треугольного числа.
 import java.util.Scanner;
 
@@ -7,5 +9,6 @@ public class DZ1 {
         System.out.printf("Введите n треугольного числа: ");
         int x = iScanner.nextInt();
         System.out.printf("Треугольное число %d = %d",x, x*(x+1)/2);
+        iScanner.close();
     }
 }
