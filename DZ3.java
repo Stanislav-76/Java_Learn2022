@@ -30,10 +30,8 @@ public class DZ3 {
         if (count == array.length) {
             printout(array);
             array[pos] = 0;
-            return;
         } else {
-            array[pos] = 0;
-            return;
+            array[pos] = 0;            
         }
     }
 
